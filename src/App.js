@@ -1,12 +1,13 @@
 
 import './App.scss';
-import Nav from './Component/Nav';
+
+import Home from './Pages/Home/Home';
+
 
 function App() {
   return (
     <div className="App">
-     <h1>Kunal</h1>
-     <Nav/>
+     <Home />
     </div>
   );
 }

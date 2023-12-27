@@ -1,0 +1,21 @@
+.searchbar {
+    position: relative;
+
+}
+
+.searchbar input {
+    width: 40vw;
+    height: 50px;
+    border-radius: 12px;
+    border: 1px solid gray;
+    padding-left: 12px;
+    font-size: 1.2rem;
+}
+
+.searchbar i {
+    position: absolute;
+    margin-right: 12px;
+    top: 35%;
+    right: 0%;
+    
+}
