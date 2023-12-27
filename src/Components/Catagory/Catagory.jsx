@@ -3,11 +3,9 @@ import AccordionGroup from "@mui/joy/AccordionGroup";
 import Accordion from "@mui/joy/Accordion";
 import AccordionDetails from "@mui/joy/AccordionDetails";
 import AccordionSummary from "@mui/joy/AccordionSummary";
-import { Checkbox } from "@mui/joy";
 import Rating from "@mui/material/Rating";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import "./Catagory.scss";
+
 const Brand = () => {
   return (
     <div style={{ display: "flex", flexDirection: "column", rowGap: "1rem" }}>
@@ -16,14 +14,14 @@ const Brand = () => {
         type="checkbox"
         style={{ height: "1.2rem", width: "1.2rem", border: "2px" }}
       />
-      <label>Mango</label>
+      <label className="label">Mango</label>
     </div>
     <div style={{ display: "flex",alignItems:"start"}}>
       <input
         type="checkbox"
         style={{ height: "1.2rem", width: "1.2rem", border: "2px" }}
       />
-      <label>H&M</label>
+      <label className="label">H&M</label>
     </div>
   </div>
   );
@@ -37,14 +35,14 @@ const PriceRange = () => {
           type="checkbox"
           style={{ height: "1.2rem", width: "1.2rem", border: "2px" }}
         />
-        <label>Under 500</label>
+        <label className="label">Under 500</label>
       </div>
       <div style={{ display: "flex",alignItems:"start"}}>
         <input
           type="checkbox"
           style={{ height: "1.2rem", width: "1.2rem", border: "2px" }}
         />
-        <label>1000 to 3000</label>
+        <label className="label">1000 to 3000</label>
       </div>
     </div>
   );
@@ -94,18 +92,23 @@ const Catagory = () => {
             <Brand />
           </AccordionDetails>
         </Accordion>
+          <hr />
+          <br />
         <Accordion expanded={expandedArr[1]} onChange={handleExpanded(1)}>
           <AccordionSummary>PRICE RANGE</AccordionSummary>
           <AccordionDetails>
             <PriceRange />
           </AccordionDetails>
         </Accordion>
+        <hr />
+        <br />
         <Accordion expanded={expandedArr[2]} onChange={handleExpanded(2)}>
           <AccordionSummary>RATINGS</AccordionSummary>
           <AccordionDetails>
             <Ratings />
           </AccordionDetails>
         </Accordion>
+        
       </AccordionGroup>
     </div>
   );
