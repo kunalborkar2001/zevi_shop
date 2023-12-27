@@ -1,0 +1,43 @@
+.latersttrends {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    // border: solid 1px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+}
+
+.latersttrends .innerdiv {
+    // height: 50vh;
+    // width: 50vw;
+    // border: saddlebrown 1px solid;
+    padding: 12px;
+    position: relative;
+    right: 52px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.latersttrends .innerdiv h3 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+
+.latersttrends .innerdiv  img {
+    height: 200px;
+    border-radius: 8px;
+}
+
+.latersttrends .innerdiv .latestimages p {
+    color: gray;
+}
+
+.latersttrends .latestimages {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+

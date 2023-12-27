@@ -1,13 +1,22 @@
-import Navbar from '../../Components/Navbar/Navbar'
-import './Home.scss'
+import { useState } from 'react';
+import LatestTrends from '../../Components/LatestTrends/LatestTrends';
+import Navbar from '../../Components/Navbar/Navbar';
+import './Home.scss';
 
 const Home = () => {
-  return (
-    <div>
-        <Navbar />
-        Home
-    </div>
-  )
-}
+    const [displayLatestTrends, setDisplayLatestTrends] = useState(false);
 
-export default Home
+    const handleChange = () => {
+        setDisplayLatestTrends(!displayLatestTrends);
+        console.log(displayLatestTrends);
+    };
+
+    return (
+        <div>
+            <Navbar handleDisplay={handleChange} />
+            <LatestTrends display={displayLatestTrends} />
+        </div>
+    );
+};
+
+export default Home;
