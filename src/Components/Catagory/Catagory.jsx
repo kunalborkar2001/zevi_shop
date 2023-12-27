@@ -82,7 +82,7 @@ const Catagory = () => {
     setExpanded(newExanpandArr);
   };
   return (
-    <div>
+    <div className="catagory">
       <AccordionGroup disableDivider sx={{ maxWidth: 200 }}>
         <Accordion expanded={expandedArr[0]} onChange={handleExpanded(0)} >
           <AccordionSummary >
