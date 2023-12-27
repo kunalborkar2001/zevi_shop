@@ -5,17 +5,17 @@ import Rating from '@mui/material/Rating';
 import './CardItem.scss';
 
 
-const Item = () => {
+const Item = ({name, new_price, old_price, image}) => {
     return (
         <div className='item'>
             <img
-                src='https://th.bing.com/th/id/OIP.4siKIW3oZ4kEo0vkEVQ5hgHaLH?rs=1&pid=ImgDetMain'
+                src={image}
                 alt='kunalborkar'
             />
-            <p>{"Round neck cotton Tee"}</p>
+            <p>{name}</p>
             <div className='item-price'>
-                <div className='item-price-old'>Rs. {600}</div>
-                <div className='item-price-new'>Rs. {40}</div>
+                <div className='item-price-old'>Rs. {old_price}</div>
+                <div className='item-price-new'>Rs. {new_price}</div>
             </div>
             
             <Box component="fieldset" borderColor="transparent" sx={{display: "flex",alignItems : "center",gap:'6px'}}>
