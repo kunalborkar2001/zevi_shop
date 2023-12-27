@@ -4,10 +4,10 @@ import product2 from "../../Components/Assets/product_2.png"
 import product3 from "../../Components/Assets/product_3.png"
 import product4 from "../../Components/Assets/product_4.png"
 import product5 from "../../Components/Assets/product_5.png"
-import { useState } from 'react'
-const LatestTrends = ({display}) => {
 
-    const [showlatestTrends, setShowlatestTrends] = useState(display)
+const LatestTrends = ({display}) => {
+    
+
 
     return (
         <div className='latersttrends' style={{ display: display ? 'flex' : 'none' }}>
