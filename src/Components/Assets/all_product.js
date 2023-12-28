@@ -35,11 +35,10 @@ import p34_img from "./product_34.png";
 import p35_img from "./product_35.png";
 import p36_img from "./product_36.png";
 
-let all_product = 
-[
+let all_product = [
   {
     "id": 1,
-    "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    "name": "Women's Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     "category": "women",
     "image": p1_img,
     "new_price": 830,
@@ -49,7 +48,7 @@ let all_product =
   },
   {
     "id": 2,
-    "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    "name": "Women's Elegant Floral Print Midi Dress",
     "category": "women",
     "image": p2_img,
     "new_price": 999,
@@ -59,7 +58,7 @@ let all_product =
   },
   {
     "id": 3,
-    "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    "name": "Women's Stylish Striped Maxi Skirt",
     "category": "women",
     "image": p3_img,
     "new_price": 1060,
@@ -69,7 +68,7 @@ let all_product =
   },
   {
     "id": 4,
-    "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    "name": "Women's Casual Denim Jeans",
     "category": "women",
     "image": p4_img,
     "new_price": 499,
@@ -79,7 +78,7 @@ let all_product =
   },
   {
     "id": 5,
-    "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    "name": "Women's Floral Print Wrap Dress",
     "category": "women",
     "image": p5_img,
     "new_price": 1450,
@@ -89,7 +88,7 @@ let all_product =
   },
   {
     "id": 6,
-    "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    "name": "Women's Comfortable Knit Sweater",
     "category": "women",
     "image": p6_img,
     "new_price": 450,
@@ -99,7 +98,7 @@ let all_product =
   },
   {
     "id": 7,
-    "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    "name": "Women's Classic Tailored Blazer",
     "category": "women",
     "image": p7_img,
     "new_price": 1450.0,
@@ -109,7 +108,7 @@ let all_product =
   },
   {
     "id": 8,
-    "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    "name": "Women's Stylish High-Waisted Trousers",
     "category": "women",
     "image": p8_img,
     "new_price": 1450.0,
@@ -119,7 +118,7 @@ let all_product =
   },
   {
     "id": 9,
-    "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    "name": "Women's Casual V-Neck Sweater",
     "category": "women",
     "image": p9_img,
     "new_price": 1450.0,
@@ -129,7 +128,7 @@ let all_product =
   },
   {
     "id": 10,
-    "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    "name": "Women's Trendy Pleated Skirt",
     "category": "women",
     "image": p10_img,
     "new_price": 1450.0,
@@ -139,7 +138,7 @@ let all_product =
   },
   {
     "id": 11,
-    "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    "name": "Women's Chic Printed Wrap Blouse",
     "category": "women",
     "image": p11_img,
     "new_price": 1450.0,
@@ -149,7 +148,7 @@ let all_product =
   },
   {
     "id": 12,
-    "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    "name": "Women's Classic Slim Fit Trench Coat",
     "category": "women",
     "image": p12_img,
     "new_price": 1450.0,
@@ -159,7 +158,7 @@ let all_product =
   },
   {
     "id": 13,
-    "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    "name": "Men's Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     "category": "men",
     "image": p13_img,
     "new_price": 1450.0,
@@ -169,7 +168,7 @@ let all_product =
   },
   {
     "id": 14,
-    "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    "name": "Men's Stylish Checked Button-Down Shirt",
     "category": "men",
     "image": p14_img,
     "new_price": 1450.0,
@@ -179,7 +178,7 @@ let all_product =
   },
   {
     "id": 15,
-    "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    "name": "Men's Casual Striped Polo Shirt",
     "category": "men",
     "image": p15_img,
     "new_price": 1450.0,
@@ -189,7 +188,7 @@ let all_product =
   },
   {
     "id": 16,
-    "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    "name": "Men's Classic Straight-Leg Jeans",
     "category": "men",
     "image": p16_img,
     "new_price": 1450.0,
@@ -199,7 +198,7 @@ let all_product =
   },
   {
     "id": 17,
-    "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    "name": "Men's Modern Slim Fit Chinos",
     "category": "men",
     "image": p17_img,
     "new_price": 1450.0,
@@ -209,7 +208,7 @@ let all_product =
   },
   {
     "id": 18,
-    "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    "name": "Men's Comfortable Cotton T-Shirt",
     "category": "men",
     "image": p18_img,
     "new_price": 1450.0,
@@ -219,7 +218,7 @@ let all_product =
   },
   {
     "id": 19,
-    "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    "name": "Men's Trendy Slim Fit Joggers",
     "category": "men",
     "image": p19_img,
     "new_price": 1450.0,
@@ -229,7 +228,7 @@ let all_product =
   },
   {
     "id": 20,
-    "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    "name": "Men's Classic Leather Oxford Shoes",
     "category": "men",
     "image": p20_img,
     "new_price": 1450.0,
@@ -239,7 +238,7 @@ let all_product =
   },
   {
     "id": 21,
-    "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    "name": "Men's Fashionable Striped Sweater",
     "category": "men",
     "image": p21_img,
     "new_price": 1450.0,
@@ -249,7 +248,7 @@ let all_product =
   },
   {
     "id": 22,
-    "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    "name": "Men's Stylish Leather Biker Jacket",
     "category": "men",
     "image": p22_img,
     "new_price": 1450.0,
@@ -259,7 +258,7 @@ let all_product =
   },
   {
     "id": 23,
-    "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    "name": "Men's Classic Plaid Wool Blazer",
     "category": "men",
     "image": p23_img,
     "new_price": 1129,
@@ -269,7 +268,7 @@ let all_product =
   },
   {
     "id": 24,
-    "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    "name": "Men's Casual Quilted Vest",
     "category": "men",
     "image": p24_img,
     "new_price": 1199,
@@ -279,7 +278,7 @@ let all_product =
   },
   {
     "id": 25,
-    "name": "Boys Orange Colourblocked Hooded Sweatshirt",
+    "name": "Kid's Orange Colourblocked Hooded Sweatshirt",
     "category": "kid",
     "image": p25_img,
     "new_price": 999,
@@ -289,7 +288,7 @@ let all_product =
   },
   {
     "id": 26,
-    "name": "Boys Orange Colourblocked Hooded Sweatshirt",
+    "name": "Kid's Cute Animal Print T-Shirt",
     "category": "kid",
     "image": p26_img,
     "new_price": 400,
@@ -299,7 +298,7 @@ let all_product =
   },
   {
     "id": 27,
-    "name": "Boys Orange Colourblocked Hooded Sweatshirt",
+    "name": "Kid's Cozy Fleece-lined Joggers",
     "category": "kid",
     "image": p27_img,
     "new_price": 1399,
@@ -309,7 +308,7 @@ let all_product =
   },
   {
     "id": 28,
-    "name": "Boys Orange Colourblocked Hooded Sweatshirt",
+    "name": "Kid's Playful Graphic Print Hoodie",
     "category": "kid",
     "image": p28_img,
     "new_price": 1450,
@@ -319,7 +318,7 @@ let all_product =
   },
   {
     "id": 29,
-    "name": "Boys Orange Colourblocked Hooded Sweatshirt",
+    "name": "Kid's Colorful Striped Knit Sweater",
     "category": "kid",
     "image": p29_img,
     "new_price": 850,
@@ -329,7 +328,7 @@ let all_product =
   },
   {
     "id": 30,
-    "name": "Boys Orange Colourblocked Hooded Sweatshirt",
+    "name": "Kid's Trendy Denim Overall Dress",
     "category": "kid",
     "image": p30_img,
     "new_price": 1150,
@@ -339,7 +338,7 @@ let all_product =
   },
   {
     "id": 31,
-    "name": "Boys Orange Colourblocked Hooded Sweatshirt",
+    "name": "Kid's Adorable Bunny Ears Headband",
     "category": "kid",
     "image": p31_img,
     "new_price": 550,
@@ -349,7 +348,7 @@ let all_product =
   },
   {
     "id": 32,
-    "name": "Boys Orange Colourblocked Hooded Sweatshirt",
+    "name": "Kid's Dinosaur Print Backpack",
     "category": "kid",
     "image": p32_img,
     "new_price": 999,
@@ -359,7 +358,7 @@ let all_product =
   },
   {
     "id": 33,
-    "name": "Boys Orange Colourblocked Hooded Sweatshirt",
+    "name": "Kid's Fun Patterned Rain Boots",
     "category": "kid",
     "image": p33_img,
     "new_price": 999,
@@ -369,7 +368,7 @@ let all_product =
   },
   {
     "id": 34,
-    "name": "Boys Orange Colourblocked Hooded Sweatshirt",
+    "name": "Kid's Playful Dinosaur Print Pajamas",
     "category": "kid",
     "image": p34_img,
     "new_price": 1450,
@@ -379,7 +378,7 @@ let all_product =
   },
   {
     "id": 35,
-    "name": "Boys Orange Colourblocked Hooded Sweatshirt",
+    "name": "Kid's Stylish Canvas High-Top Sneakers",
     "category": "kid",
     "image": p35_img,
     "new_price": 450,
@@ -389,7 +388,7 @@ let all_product =
   },
   {
     "id": 36,
-    "name": "Boys Orange Colourblocked Hooded Sweatshirt",
+    "name": "Kid's Cozy Knit Pom-Pom Beanie",
     "category": "kid",
     "image": p36_img,
     "new_price": 1450.0,
@@ -397,7 +396,8 @@ let all_product =
     "brand": "H&M",
     "rating": 4
   }
-]
+];
+
 
 
 export default all_product;
