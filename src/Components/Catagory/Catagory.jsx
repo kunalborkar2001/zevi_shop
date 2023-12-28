@@ -67,7 +67,9 @@ const Catagory = ({ catagoryData }) => {
 
   return (
     <div className="catagory">
-      <AccordionGroup disableDivider>
+      <AccordionGroup disableDivider className= "accordiongroup" style={{display : "flex", width : "100%"}}>
+        <div className="kunal">
+
         <Accordion expanded={expandedArr[0]} onChange={handleExpanded(0)}>
           <AccordionSummary>BRAND</AccordionSummary>
           <AccordionDetails>
@@ -90,7 +92,11 @@ const Catagory = ({ catagoryData }) => {
           </AccordionDetails>
         </Accordion>
         <hr />
-        <br />
+
+        
+        {/* <br /> */}
+        
+
         <Accordion expanded={expandedArr[1]} onChange={handleExpanded(1)}>
           <AccordionSummary>PRICE RANGE</AccordionSummary>
           <AccordionDetails>
@@ -117,7 +123,7 @@ const Catagory = ({ catagoryData }) => {
           </AccordionDetails>
         </Accordion>
         <hr />
-        <br />
+        {/* <br /> */}
         <Accordion expanded={expandedArr[2]} onChange={handleExpanded(2)}>
           <AccordionSummary>RATINGS</AccordionSummary>
           <AccordionDetails>
@@ -140,6 +146,7 @@ const Catagory = ({ catagoryData }) => {
             ))}
           </AccordionDetails>
         </Accordion>
+        </div>
       </AccordionGroup>
     </div>
   );

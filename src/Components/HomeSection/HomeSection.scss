@@ -10,3 +10,13 @@
     display: flex;
     gap: 3vw;
 }
+
+
+
+
+@media (max-width: 975px) {
+    .homesection .sections {
+        flex-direction: column;
+    }
+
+}
