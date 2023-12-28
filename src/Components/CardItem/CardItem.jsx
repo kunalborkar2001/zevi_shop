@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Box from '@mui/material/Box';
 import Rating from '@mui/material/Rating';
@@ -13,9 +12,11 @@ const Item = ({ name, new_price, old_price, image }) => {
 
     return (
         <div className='item'>
+            <div className='imgproduct'>
             <img src={image} alt='kunalborkar' />
             <div className='viewproduct'>
                 <h2>View Product</h2>
+            </div>
             </div>
             <p>{name}</p>
             <div className='item-price'>
