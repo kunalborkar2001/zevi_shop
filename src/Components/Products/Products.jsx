@@ -20,13 +20,13 @@ const Products = ({ productsFilter }) => {
 
             // Check range
             if (productsFilter.range.length > 0) {
-                // Extract min and max values from the range string
-                const [min, max] = productsFilter.range[0].split('-');
-
+                // Split the range string into min and max values
+                const [min, max] = productsFilter.range.split('-');
+                
                 // Convert to numbers for comparison
                 const minValue = parseInt(min, 10);
                 const maxValue = parseInt(max, 10);
-
+                
                 // Check if the product's price is within the selected range
                 if (product.new_price < minValue || product.new_price > maxValue) {
                     return false;

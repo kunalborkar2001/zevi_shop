@@ -5,17 +5,19 @@ import AccordionDetails from "@mui/joy/AccordionDetails";
 import AccordionSummary from "@mui/joy/AccordionSummary";
 import Rating from "@mui/material/Rating";
 import Checkbox from "@mui/material/Checkbox";
+import RadioButtonUncheckedIcon from "@mui/icons-material/RadioButtonUnchecked";
+import RadioButtonCheckedIcon from "@mui/icons-material/RadioButtonChecked";
 import "./Catagory.scss";
 
-const Catagory = ({catagoryData}) => {
+const Catagory = ({ catagoryData }) => {
   const [filteredData, setFilteredData] = useState({
     brand: [],
-    range: [],
+    range: '',
     rating: [],
   });
 
   useEffect(() => {
-    // console.log(filteredData);
+    console.log(filteredData);
     catagoryData(filteredData)
   }, [filteredData]);
 
@@ -35,14 +37,9 @@ const Catagory = ({catagoryData}) => {
 
   const handleRange = (range) => {
     setFilteredData((prevData) => {
-      const isRangeSelected = prevData.range.includes(range);
-      const updatedRange = isRangeSelected
-        ? prevData.range.filter((selectedRange) => selectedRange !== range)
-        : [...prevData.range, range];
-
       return {
         ...prevData,
-        range: updatedRange,
+        range,
       };
     });
   };
@@ -99,17 +96,21 @@ const Catagory = ({catagoryData}) => {
           <AccordionDetails>
             <div style={{ display: "flex", alignItems: "center" }}>
               <Checkbox
+                icon={<RadioButtonUncheckedIcon />}
+                checkedIcon={<RadioButtonCheckedIcon />}
                 value="0-500"
                 onChange={() => handleRange("0-500")}
-                checked={filteredData.range.includes("0-500")}
+                checked={filteredData.range === "0-500"}
               />
               Under 500
             </div>
             <div style={{ display: "flex", alignItems: "center" }}>
               <Checkbox
+                icon={<RadioButtonUncheckedIcon />}
+                checkedIcon={<RadioButtonCheckedIcon />}
                 value="501-3000"
                 onChange={() => handleRange("501-3000")}
-                checked={filteredData.range.includes("501-3000")}
+                checked={filteredData.range === "501-3000"}
               />
               500 To 3000
             </div>
