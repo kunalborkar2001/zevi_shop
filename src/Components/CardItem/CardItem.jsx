@@ -14,6 +14,9 @@ const Item = ({ name, new_price, old_price, image }) => {
     return (
         <div className='item'>
             <img src={image} alt='kunalborkar' />
+            <div className='viewproduct'>
+                <h2>View Product</h2>
+            </div>
             <p>{name}</p>
             <div className='item-price'>
                 <div className='item-price-old'>Rs. {old_price}</div>

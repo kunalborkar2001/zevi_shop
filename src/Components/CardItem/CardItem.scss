@@ -2,9 +2,9 @@
 
 
 .item {
-    // width: 350px;
+    
     position: relative;
-    // border: solid black ;
+    
 }
 
 .item img {
@@ -60,3 +60,24 @@
     color: red;
 }
 
+.item .viewproduct {
+    display: none;
+    color: whitesmoke;
+    background: rgba(5, 130, 232, 0.614);
+    height: 40px;
+    // border: solid 1px;
+    width: 100%;
+    position: absolute;
+    top: 71.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    font-size: .9rem;
+    word-spacing: .3rem;
+    
+}
+
+.item:hover .viewproduct {
+    display: block; /* Show the viewproduct element on hover */
+    
+}

@@ -5,6 +5,7 @@ import AccordionDetails from "@mui/joy/AccordionDetails";
 import AccordionSummary from "@mui/joy/AccordionSummary";
 import Rating from "@mui/material/Rating";
 import Typography from '@mui/material/Typography';
+import Checkbox from '@mui/material/Checkbox';
 import "./Catagory.scss";
 
 const Brand = () => {
@@ -66,7 +67,17 @@ const Catagory = () => {
             BRAND
           </AccordionSummary>
           <AccordionDetails>
-            <Brand />
+            
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <Checkbox />
+              Mango
+            </div>
+            
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <Checkbox />
+              H&M
+            </div>
+
           </AccordionDetails>
         </Accordion>
         <hr />
@@ -74,7 +85,17 @@ const Catagory = () => {
         <Accordion expanded={expandedArr[1]} onChange={handleExpanded(1)}>
           <AccordionSummary>PRICE RANGE</AccordionSummary>
           <AccordionDetails>
-            <PriceRange />
+
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <Checkbox />
+              Under 500
+            </div>
+
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <Checkbox />
+              500 To 3000
+            </div>
+
           </AccordionDetails>
         </Accordion>
         <hr />
@@ -82,14 +103,49 @@ const Catagory = () => {
         <Accordion expanded={expandedArr[2]} onChange={handleExpanded(2)}>
           <AccordionSummary>RATINGS</AccordionSummary>
           <AccordionDetails>
-            <div style={{display : "flex"}}>
-              <Typography component="legend">Controlled</Typography>
+
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <Checkbox />
               <Rating
                 name="simple-controlled"
                 value={5}
-
+                readOnly
               />
             </div>
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <Checkbox />
+              <Rating
+                name="simple-controlled"
+                value={4}
+                readOnly
+              />
+            </div>
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <Checkbox />
+              <Rating
+                name="simple-controlled"
+                value={3}
+                readOnly
+              />
+            </div>
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <Checkbox />
+              <Rating
+                name="simple-controlled"
+                value={2}
+                readOnly
+              />
+            </div>
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <Checkbox />
+              <Rating
+                name="simple-controlled"
+                value={1}
+                readOnly
+              />
+            </div>
+
+
           </AccordionDetails>
         </Accordion>
 
