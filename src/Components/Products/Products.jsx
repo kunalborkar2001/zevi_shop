@@ -4,12 +4,14 @@ import CardItem from "../CardItem/CardItem";
 import all_product from '../Assets/all_product';
 import { useEffect, useState } from 'react';
 
-const Products = () => {
+const Products = ({ productsFilter }) => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
         setProducts(all_product);
     }, []);
+    
+    
 
     return (
         <div className="products">
