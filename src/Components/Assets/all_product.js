@@ -42,8 +42,8 @@ let all_product =
     "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     "category": "women",
     "image": p1_img,
-    "new_price": 830.0,
-    "old_price": 1450.5,
+    "new_price": 830,
+    "old_price": 1450,
     "brand": "Mango"
   },
   {
@@ -51,8 +51,8 @@ let all_product =
     "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     "category": "women",
     "image": p2_img,
-    "new_price": 1450.0,
-    "old_price": 2480.5,
+    "new_price": 999,
+    "old_price": 2180,
     "brand": "H&M"
   },
   {
@@ -60,8 +60,8 @@ let all_product =
     "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     "category": "women",
     "image": p3_img,
-    "new_price": 1060.0,
-    "old_price": 1800.5,
+    "new_price": 1060,
+    "old_price": 1799,
     "brand": "Mango"
   },
   {
@@ -69,8 +69,8 @@ let all_product =
     "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     "category": "women",
     "image": p4_img,
-    "new_price": 1780.0,
-    "old_price": 2700.0,
+    "new_price": 499,
+    "old_price": 1700,
     "brand": "H&M"
   },
   {
@@ -78,8 +78,8 @@ let all_product =
     "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     "category": "women",
     "image": p5_img,
-    "new_price": 1450.0,
-    "old_price": 2480.5,
+    "new_price": 1450,
+    "old_price": 2380,
     "brand": "Mango"
   },
   {
@@ -87,8 +87,8 @@ let all_product =
     "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     "category": "women",
     "image": p6_img,
-    "new_price": 1450.0,
-    "old_price": 2480.5,
+    "new_price": 450,
+    "old_price": 1299,
     "brand": "H&M"
   },
   {
@@ -240,8 +240,8 @@ let all_product =
     "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     "category": "men",
     "image": p23_img,
-    "new_price": 1450.0,
-    "old_price": 2480.5,
+    "new_price": 1129,
+    "old_price": 2123,
     "brand": "Mango"
   },
   {
@@ -249,8 +249,8 @@ let all_product =
     "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     "category": "men",
     "image": p24_img,
-    "new_price": 1450.0,
-    "old_price": 2480.5,
+    "new_price": 1199,
+    "old_price": 2399,
     "brand": "H&M"
   },
   {
@@ -258,8 +258,8 @@ let all_product =
     "name": "Boys Orange Colourblocked Hooded Sweatshirt",
     "category": "kid",
     "image": p25_img,
-    "new_price": 1450.0,
-    "old_price": 2480.5,
+    "new_price": 999,
+    "old_price": 1440,
     "brand": "Mango"
   },
   {
@@ -267,8 +267,8 @@ let all_product =
     "name": "Boys Orange Colourblocked Hooded Sweatshirt",
     "category": "kid",
     "image": p26_img,
-    "new_price": 1450.0,
-    "old_price": 2480.5,
+    "new_price": 400,
+    "old_price": 1480,
     "brand": "H&M"
   },
   {
@@ -276,8 +276,8 @@ let all_product =
     "name": "Boys Orange Colourblocked Hooded Sweatshirt",
     "category": "kid",
     "image": p27_img,
-    "new_price": 1450.0,
-    "old_price": 2480.5,
+    "new_price": 1399,
+    "old_price": 1589,
     "brand": "Mango"
   },
   {
@@ -285,8 +285,8 @@ let all_product =
     "name": "Boys Orange Colourblocked Hooded Sweatshirt",
     "category": "kid",
     "image": p28_img,
-    "new_price": 1450.0,
-    "old_price": 2480.5,
+    "new_price": 1450,
+    "old_price": 2980,
     "brand": "H&M"
   },
   {
@@ -294,8 +294,8 @@ let all_product =
     "name": "Boys Orange Colourblocked Hooded Sweatshirt",
     "category": "kid",
     "image": p29_img,
-    "new_price": 1450.0,
-    "old_price": 2480.5,
+    "new_price": 850,
+    "old_price": 2480,
     "brand": "Mango"
   },
   {
@@ -303,8 +303,8 @@ let all_product =
     "name": "Boys Orange Colourblocked Hooded Sweatshirt",
     "category": "kid",
     "image": p30_img,
-    "new_price": 1450.0,
-    "old_price": 2480.5,
+    "new_price": 1150,
+    "old_price": 1480,
     "brand": "H&M"
   },
   {
@@ -312,8 +312,8 @@ let all_product =
     "name": "Boys Orange Colourblocked Hooded Sweatshirt",
     "category": "kid",
     "image": p31_img,
-    "new_price": 1450.0,
-    "old_price": 2480.5,
+    "new_price": 550,
+    "old_price": 1225,
     "brand": "Mango"
   },
   {
@@ -321,8 +321,8 @@ let all_product =
     "name": "Boys Orange Colourblocked Hooded Sweatshirt",
     "category": "kid",
     "image": p32_img,
-    "new_price": 1450.0,
-    "old_price": 2480.5,
+    "new_price": 999,
+    "old_price": 2440,
     "brand": "H&M"
   },
   {
@@ -330,8 +330,8 @@ let all_product =
     "name": "Boys Orange Colourblocked Hooded Sweatshirt",
     "category": "kid",
     "image": p33_img,
-    "new_price": 1450.0,
-    "old_price": 2480.5,
+    "new_price": 999,
+    "old_price": 2400,
     "brand": "Mango"
   },
   {
@@ -339,8 +339,8 @@ let all_product =
     "name": "Boys Orange Colourblocked Hooded Sweatshirt",
     "category": "kid",
     "image": p34_img,
-    "new_price": 1450.0,
-    "old_price": 2480.5,
+    "new_price": 1450,
+    "old_price": 2480,
     "brand": "H&M"
   },
   {
@@ -348,8 +348,8 @@ let all_product =
     "name": "Boys Orange Colourblocked Hooded Sweatshirt",
     "category": "kid",
     "image": p35_img,
-    "new_price": 1450.0,
-    "old_price": 2480.5,
+    "new_price": 450,
+    "old_price": 1085,
     "brand": "Mango"
   },
   {

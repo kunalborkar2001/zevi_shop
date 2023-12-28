@@ -1,13 +1,15 @@
-@import "../../UniversalStyles/color.scss" ;
+@import "../../UniversalStyles/color.scss";
 
 
 .item {
-    width: 350px;
-
+    // width: 350px;
+    position: relative;
+    // border: solid black ;
 }
 
 .item img {
-    height: 300px;
+    height: 350px;
+    width: 100%;
 
 }
 
@@ -44,3 +46,17 @@
 .rating {
     display: flex;
 }
+
+
+#heart {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+#heart.red {
+    color: red;
+}
+
