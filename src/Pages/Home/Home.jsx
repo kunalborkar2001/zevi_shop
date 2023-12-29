@@ -14,7 +14,7 @@ const Home = () => {
 
     return (
         <div>
-            <Navbar handleDisplay={handleChange} />
+            <Navbar handleDisplay={handleChange} displayNav={true}/>
             <LatestTrends display={displayLatestTrends} />
             <HomeSection />
         </div>

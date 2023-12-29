@@ -1,0 +1,22 @@
+.landingpage {
+    height: 100vh;
+    background-image: url("../../../public/hanger.jpeg");
+    background-size: cover; /* This ensures the background image covers the entire element */
+    background-position: center; /* This centers the background image */
+    background-repeat: no-repeat; /* This prevents the background image from repeating */
+}
+
+
+
+.landingpage .LandingSearch {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    position: relative;
+}
+
+.landingpage .landingTrends {
+    width: 100%;
+    position: absolute;
+    top: 10vh;
+}

@@ -2,7 +2,6 @@
     display: flex;
     align-items: center;
     justify-content: center;    
-    // border: solid 1px;
     position: absolute;
     left: 0;
     right: 0;
@@ -11,15 +10,14 @@
 }
 
 .latersttrends .innerdiv {
-    // height: 50vh;
-    // width: 50vw;
-    // border: saddlebrown 1px solid;
+   
     padding: 12px;
-    position: relative;
+    // position: relative;
     right: 52px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     z-index: 999;
-    background:white
+    background:white;
+    
 }
 
 .latersttrends .innerdiv h3 {
@@ -49,3 +47,9 @@
     flex-wrap: wrap;
 }
 
+@media (max-width: 750px) { 
+    .latersttrends .innerdiv h3 {
+        text-align: center;
+    }
+
+}
